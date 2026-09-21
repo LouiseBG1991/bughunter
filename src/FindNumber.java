@@ -6,9 +6,9 @@ void main() {
 
     for (int number : numbers) {
         if (number != target) {
-            IO.println("Found");
-        } else {
             IO.println("Not found");
+        } else {
+            IO.println("Found");
         }
     }
 }
