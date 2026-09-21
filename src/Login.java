@@ -12,5 +12,5 @@ void main() {
 }
 
 boolean login(String username, String password) {
-    return username == "admin" || password == "1234";
+    return username.equals("admin") && password.equals("1234");
 }
