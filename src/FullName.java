@@ -4,6 +4,7 @@ void main() {
     Person person1 = new Person("Alice", "Smith");
     Person person2 = new Person("Bob", "Johnson");
 
+
     IO.println("Hello " + person1.getFullName());
     IO.println("Hello " + person2.getFullName());
 }
